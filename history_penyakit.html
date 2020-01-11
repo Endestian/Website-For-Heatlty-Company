@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<link href="" rel="shortcut icon">
+<title> DrugDesc </title>
+</head>
+<body>
+	<header>
+		<h1 align="center">Nama Pasien</h1>
+	</header>
+	<section>
+		<div class="table-resposnive container">
+			<table id="resultsTable" class="table table-striped" cellspacing="0">
+				<thead>
+					<tr>
+						<th>Tanggal</th>
+						<th>Nama Penyakit</th>
+						<th>Obat</th>
+						<th>Dokter</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>".$data['tanggal']."</td>
+						<td>".$data['nama_penyakit']."</td>
+						<td>".$data['obat']."</td>
+						<td>".$data['dokter']."</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</body>
+</html>
+
